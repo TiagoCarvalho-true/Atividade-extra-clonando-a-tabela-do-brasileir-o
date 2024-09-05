@@ -1,0 +1,78 @@
+main table{
+    display: block;
+    padding: 55px;
+    border: 3px solid #3931A1;
+    border-collapse: collapse;
+}
+main #table-main th{
+    border: 2px solid rgb(94, 145, 255);
+    border-radius: 45px 45px;
+    border-left-style: inherit;
+    border-top-style: ridge;
+    border-right-style: inherit;
+    border-bottom-style: inherit;
+
+     padding: 15px;
+     font-size: 1.5rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: #3931A1;
+}
+main #table-main td{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 25px;
+    border-left-style: inherit;
+    border-right-style: inherit;
+
+}
+
+#table-main{
+    position: relative;
+    width: 990px;
+   margin-top: 68px;
+   margin-left:200px ;
+   margin-right: 200px;
+   margin-bottom: 68px;
+    border: 2px;
+    border-color: #1A4EDC;
+    top: 80px;
+
+}
+main #table-main td .logo{
+    width: 30px;
+}
+main #table-main td a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main #table-main td a:hover{
+    padding: 5px;
+   text-decoration: overline;
+    color: #0d46e2;
+    
+}
+
+#extras{
+    display: block;
+    width: 980px;
+    position: absolute;
+    top: 180px;
+    padding: 25px;
+}
+#extras .logo{
+   width: 50px;
+}
+#extras td{
+    border: 3px solid #0d46e2;
+    padding: 25px;
+    font-size: 1.8rem;
+    border-left-style: inherit;
+    border-right-width: inherit;
+}
+#extras th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: inherit;
+    font-size: 1.4rem;
+    padding: 15px;
+}
