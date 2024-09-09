@@ -7,7 +7,6 @@ main table{
 }
 main #table-main th{
     border: 2px solid rgb(94, 145, 255);
-    border-radius: 45px 45px;
     border-left-style: inherit;
     border-top-style: ridge;
     border-right-style: inherit;
@@ -23,7 +22,7 @@ main #table-main td{
     padding: 25px;
     border-left-style: inherit;
     border-right-style: inherit;
-
+     color: rgb(39, 0, 129);
 }
 
 #table-main{
@@ -40,6 +39,7 @@ main #table-main td{
 }
 main #table-main td .logo{
     width: 30px;
+    
 }
 main #table-main td a{
     text-decoration: none;
@@ -50,7 +50,7 @@ main #table-main td a{
 main #table-main td a:hover{
     padding: 5px;
    text-decoration: overline;
-    color: #0d46e2;
+    color: #4c00ff;
     
 }
 
@@ -76,4 +76,10 @@ main #table-main td a:hover{
     border-style: inherit;
     font-size: 1.4rem;
     padding: 15px;
+}
+thead{
+    background-color: rgb(177, 177, 177);
+}
+tbody{
+    background-color: #85a1f5;
 }
