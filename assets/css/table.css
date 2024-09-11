@@ -24,6 +24,12 @@ main #table-main td{
     border-right-style: inherit;
      color: rgb(39, 0, 129);
 }
+main #table-main td:hover{
+    background-color: #0d46e2;
+    border: 2px solid rgb(255, 255, 255);
+   
+     color: rgb(254, 253, 255);
+}
 
 #table-main{
     position: relative;
@@ -42,6 +48,7 @@ main #table-main td .logo{
     
 }
 main #table-main td a{
+    color: #594dff;
     text-decoration: none;
     font-size: 1.5rem;
     color: #000000;
@@ -49,9 +56,9 @@ main #table-main td a{
 }
 main #table-main td a:hover{
     padding: 5px;
-   text-decoration: overline;
-    color: #4c00ff;
-    
+    color: #eae0ff;
+    border: 1px solid wheat;
+    border-radius: 12px;
 }
 
 #extras{
@@ -70,6 +77,7 @@ main #table-main td a:hover{
     font-size: 1.8rem;
     border-left-style: inherit;
     border-right-width: inherit;
+    
 }
 #extras th{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
