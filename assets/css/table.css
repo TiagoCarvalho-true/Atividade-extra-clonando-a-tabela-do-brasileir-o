@@ -57,7 +57,7 @@ main #table-main td a{
 main #table-main td a:hover{
     padding: 5px;
     color: #eae0ff;
-    border: 1px solid wheat;
+    border: 2px solid wheat;
     border-radius: 12px;
 }
 
